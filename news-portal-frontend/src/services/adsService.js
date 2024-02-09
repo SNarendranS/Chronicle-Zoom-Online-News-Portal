@@ -3,7 +3,7 @@ import axios from 'axios';
 const getAD  = () => {
   try{
 
-    return axios.get('http://localhost:8080/ads');
+    return axios.get('https://chronical-backend.onrender.com/ads');
   }catch(error){
     console.log('cannot fetch' + error)
   }
@@ -12,7 +12,7 @@ const getAD  = () => {
 const postAD = (adDetails) => {
   try{
     const token = sessionStorage.getItem('token');
-    return axios.post('http://localhost:8080/ads/post',adDetails,{headers:{'Authorization': 'Bearer '+JSON.parse(token)}});
+    return axios.post('https://chronical-backend.onrender.com/ads/post',adDetails,{headers:{'Authorization': 'Bearer '+JSON.parse(token)}});
   }catch{
     console.log('cannot fetch')
   }
