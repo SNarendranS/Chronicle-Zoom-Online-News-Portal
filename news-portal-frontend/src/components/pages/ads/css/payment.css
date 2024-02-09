@@ -1,0 +1,63 @@
+/* Styles for the container */
+.payment-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the form container */
+  .payment-form-container {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Styles for the form */
+  .payment-form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  /* Styles for form group */
+  .payment-form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for labels */
+  .payment-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for input fields and select */
+  .payment-form-input,
+  .payment-select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the button */
+  .payment-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the button on hover */
+  .payment-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for error message */
+  .payment-error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

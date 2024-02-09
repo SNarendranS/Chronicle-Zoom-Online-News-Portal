@@ -1,0 +1,95 @@
+
+.ADComponent {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+
+
+  align-items: center;
+  justify-content: center;
+}
+.advertisement {
+
+  margin-top: -20px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  
+}
+.error {
+  color: #dc3545;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+.advertisement h6 {
+
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.advertisement ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.advertisement li {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+  max-height: 600px;
+  width: 200px;
+}
+
+.advertisement li:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.advertisement h3 {
+  font-size: x-small;
+  color: #343a40;
+  margin-bottom: 0px;
+}
+
+.advertisement h4 {
+  font-size: x-small;
+  color: #6c757d;
+  margin-bottom: 0px;
+}
+
+.advertisement p {
+  color: #343a40;
+  margin-bottom: 15px;
+
+}
+
+.advertisement img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.advertisement a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #2a4bb8;
+  text-decoration: none;
+
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+  
+}
+
+.advertisement a:hover {
+  text-decoration: underline;
+
+}

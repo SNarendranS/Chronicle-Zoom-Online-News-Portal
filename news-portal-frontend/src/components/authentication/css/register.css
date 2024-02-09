@@ -1,0 +1,96 @@
+.form_wrapper {
+    background: #fff;
+    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 8% auto 0;
+    position: relative;
+    z-index: 1;
+    border-top: 5px solid #f5ba1a;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    animation: expand 0.8s 0.6s ease-out forwards;
+    opacity: 0;
+  }
+  
+  .form_wrapper h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+  }
+  
+  .form_wrapper .title_container {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
+  .form_wrapper .row {
+    margin: 10px -15px;
+  }
+  
+  .form_wrapper .col_half {
+    width: 50%;
+    float: left;
+
+  }
+  
+  .form_wrapper .input_field {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  
+  .form_wrapper .input_field > span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #333;
+    height: 100%;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    width: 30px;
+  }
+  
+  .form_wrapper .input_field > span i {
+    padding-top: 10px;
+  }
+  
+  .form_wrapper .button {
+    background: #f5ba1a;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    transition: all 0.30s ease-in-out;
+  }
+  
+  .form_wrapper .button:hover,
+  .form_wrapper .button:focus {
+    background: darken(#f5ba1a, 7%);
+  }
+  
+  @keyframes expand {
+    0% {
+      transform: scale3d(1, 0, 1);
+      opacity: 0;
+    }
+    25% {
+      transform: scale3d(1, 1.2, 1);
+    }
+    50% {
+      transform: scale3d(1, 0.85, 1);
+    }
+    75% {
+      transform: scale3d(1, 1.05, 1);
+    }
+    100% {
+      transform: scale3d(1, 1, 1);
+      opacity: 1;
+    }
+  }
+  

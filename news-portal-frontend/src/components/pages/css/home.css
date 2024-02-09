@@ -1,0 +1,47 @@
+.homeContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  .h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+  }
+  
+  .error {
+	color: red;
+	margin-bottom: 20px;
+  }
+  
+  .tableContainer {
+	width: 80%;
+	margin-top: 20px;
+  }
+  
+  .table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  .table th, .table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+  }
+  
+  .table th {
+	background-color: #f2f2f2;
+  }
+  
+  .link {
+	margin-top: 20px;
+	text-decoration: none;
+	color: #573b8a;
+	font-weight: bold;
+  }
+  
+  .link:hover {
+	text-decoration: underline;
+  }
