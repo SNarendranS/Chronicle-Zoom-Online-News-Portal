@@ -1,6 +1,6 @@
 # ChronicleZoom
 
-ChronicleZoom is an online news portal developed using the MERN stack (MongoDB, Express.js, React, Node.js). It allows publishers to post articles and advertisements, while users can read, search, view news by genre, and comment on articles.
+ChronicleZoom is an online news portal developed using the MERN stack (MongoDB, Express.js, React, Node.js). It allows publishers to post articles, while users can read, search, view news by genre, and comment on articles.
 
 ## Features
 
