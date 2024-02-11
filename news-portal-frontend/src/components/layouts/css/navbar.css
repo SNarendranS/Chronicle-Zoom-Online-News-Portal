@@ -1,8 +1,7 @@
-
 .container2 {
   font-family: 'Arial', sans-serif;
   background-color: #f39c12; 
-  padding: 5px 10px 5px 0;
+  padding: 10px 10px 5px 0;
   color: #fff; 
   margin: 10px -15px -15px;;
   border-top:2px solid #fefefe;
@@ -21,9 +20,6 @@
   margin-bottom: 2px;
   z-index: 1000;
 }
-
-
-
 
 .logo-h1 {
   width: 0;
@@ -45,38 +41,24 @@
 
 }
 
-.search-container {
-  position: relative;
-  display: inline-block;
-}
-
 
 .search-container input {
-  top: 12%;
-  right: 8px;
   height: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 3px 10px 2px 0;
   outline: none;
-  position: fixed;
+}
 
-  }
-
-  .search-container button {
-
-  position:fixed;
-
-  top: 14%;
-
-  right: 8px;
-  transform: translateY(-50%);
+.search-container button {
   background-color: #ffffff;
   color: #676161;
   border: 1px solid #fefefe;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
-  
+  height:25px;
+  margin-left:-2px;
+
 }
 
 .search-container button:hover {
@@ -131,7 +113,9 @@
   margin-left: 25px;
 }
 
+@media (max-width: 768px) {
+    .search-container {
+        justify-content: center;
 
- 
-
- 
+    }
+}
